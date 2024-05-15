@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380.23 190.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #bdc4e5;
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g id="Eisberg">
+    <g>
+      <polygon class="cls-1" points="0 190.49 77.55 89.6 88.09 101.27 191.25 0 252.99 61.36 265.41 47.06 380.23 190.49 0 190.49"/>
+      <polygon class="cls-2" points="262.4 179.58 356.52 179.95 265.04 63.25 254.87 75.67 207.81 29.74 259.18 94.74 238.31 129.51 279.77 157.71 262.4 179.58"/>
+    </g>
+  </g>
+</svg>

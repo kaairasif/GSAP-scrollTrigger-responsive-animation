@@ -1,0 +1,420 @@
+/**********************************/
+/**** FOOTER                   ****/
+/**********************************/
+
+/* Footer */
+#footer {
+	margin-bottom: 0;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+    font-size: 0.7rem;
+}
+
+body.inAppBrowser #footer {
+	display: none;
+}
+
+    #footer .container .navbar-footer .navbar-left::after {
+        content: " ";
+        display: inline-block;
+        height: 4.125rem;
+        width: 14rem;
+        position: absolute;
+        right: -14rem;
+		background: url(../img/layout/footer.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	@media (max-width: 1199px) {
+		#footer .container .navbar-footer .navbar-left::after {
+			background-size: 10rem;
+			background-position: 27rem center;
+		}
+	}
+
+	@media (max-width: 991px) {
+		#footer .container .navbar-footer .navbar-left::after {
+			background: transparent;
+		}
+	}
+
+	#footer .navbar-footer {
+		width: 100%;
+	}
+
+		#footer .navbar-left {
+			float: left;
+		}
+
+		#footer .navbar-right {
+			float: right;
+		}
+
+		#footer .sys-nav {
+			display: inline-block;
+		}
+
+			#footer .sys-nav a {
+				color: #000099;
+				background-color: transparent;
+				font-weight: normal;
+			    padding: 15px;
+			    display: inline-block;
+			}
+
+			#footer a:hover {
+				text-decoration: underline;
+			}
+
+		#footer .copyright {
+			color: grey;
+		}
+
+			#footer .copyright ul li{
+			    padding-top: 15px;
+			    padding-bottom: 15px;
+			    line-height: 20px;
+			}
+
+.footershadow{
+	-webkit-box-shadow: inset 0px 12px 30px -10px rgba(0, 0, 0, 0.9);
+	-moz-box-shadow:    inset 0px 12px 30px -10px rgba(0, 0, 0, 0.9);
+	box-shadow:         inset 0px 12px 30px -10px rgba(0, 0, 0, 0.9)
+}
+
+@media (max-width: 991px) {
+	#footer .navbar {
+		margin-left: 0;
+	}
+		#footer .nav>li {
+			text-align: center;
+		}
+	#footer .copyright ul li {
+		padding-left: 15px;
+	    padding-right: 15px;
+	    text-align: center;
+	}
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 649px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+
+
+
+
+
+/**********************************/
+/**** Login                    ****/
+/**********************************/
+
+#login {
+    width: 80%;
+    margin-left: 10%;
+}
+
+	#login > img {
+	    width: 280px;
+        display: block;
+	    max-width: 100%;
+	    height: auto;
+	    float: left!important;
+	}
+
+	#login .welcome {
+	    font-family: 'Michelin Beta W00 Regular', Arial, sans-serif;
+	    font-size: 1.5rem;
+	    margin-top: 165px;
+	    float: right!important;
+	}
+
+	#login .bg-login {
+	    width: 100%;
+	    margin-top: -36px;
+	    z-index: 1;
+	    font-size: 2rem;
+	    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+	    color: #000099;
+	    line-height: 7rem;
+	    color: #000099;
+	    -webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	    box-shadow: none;
+	}
+
+	#login .bg-loginarea {
+		width: 100%;
+		font-size: 1rem;
+	    font-family: Arial, Helvetica, sans-serif;
+	    color: #000099;
+	    line-height: 1.3rem;
+	    margin-left: -72px;
+	    margin-top: -10px;
+        height: auto;
+	    overflow: visible;
+	    min-height: 300px;
+        padding: 2rem;
+	    -webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	    box-shadow: none;
+	}
+
+		#login label {
+			display: none;
+		}
+
+		#login div.input.text:before {
+			content: ' ';
+			background: url('../img/layout/bib_username.png') center center no-repeat;
+			background-size: contain;
+		    height: 2.8rem;
+		    width: 2.8rem;
+		    display: inline-block;
+		    margin-right: 1rem;
+		    vertical-align: middle;
+		}
+
+		#login div.input.password:before {
+			content: ' ';
+			background: url('../img/layout/bib_password.png') center center no-repeat;
+			background-size: contain;
+		    height: 2.8rem;
+		    width: 2.8rem;
+		    display: inline-block;
+		    margin-right: 1rem;
+		    vertical-align: middle;
+		}
+
+		#login input[type=text],
+		#login input[type=submit],
+		#login input[type=password],
+		.pwReset input[type=email] {
+		    width: 20rem;
+		}
+
+        .is-invalid~.invalid-feedback,
+        .is-invalid~.invalid-tooltip,
+        .was-validated :invalid~.invalid-feedback,
+        .was-validated :invalid~.invalid-tooltip {
+            display: block;
+            margin-bottom: 1rem;
+            color: #FFE800;
+            font-weight: normal;
+        }
+
+        .mxSiteBody input[type=text].is-invalid,
+        .mxSiteBody input[type=email].is-invalid,
+        .mxSiteBody input[type=submit].is-invalid,
+        .mxSiteBody input[type=password].is-invalid {
+            margin-bottom: 0.25rem;
+            border: 1px solid #FFE800;
+        }
+
+		.pwReset .input.email {
+		    display: inline-block;
+		    margin: 0.1rem 2rem 0 0;
+		}
+
+		#login .bg-loginarea form p {
+			width: 24rem;
+		    margin: auto;
+		    text-align: right;
+		    margin-top: -0.8rem;
+		    margin-bottom: 1rem;
+		}
+
+			#login .bg-loginarea form p a {
+			    font-size: 0.7em;
+			    font-family: 'Michelin Beta W00 Regular', Arial, sans-serif;
+			    color: #FFE800;
+			}
+
+			#login .bg-loginarea form p a:hover {
+			    text-decoration: underline;
+			}
+
+		#login .bg-loginarea .skewBox.skewBox-lightGrey {
+		    z-index: -1;
+		}
+
+			#login .bg-loginarea .skewBox.skewBox-lightGrey:before {
+			    z-index: -1;
+			    -webkit-box-shadow: none;
+				-moz-box-shadow: none;
+			    box-shadow: none;
+			}
+
+div#userloginflashMessage, #flashMessage {
+    width: 70%;
+    margin: 0 auto 1rem;
+    color: red;
+    color: #9c1414;
+    background: #fff;
+    padding: 1rem;
+}
+
+@media (max-width: 1199px) {
+    #login .welcome {
+        font-size: 1.2rem;
+        margin-top: 175px;
+    }
+}
+
+@media (max-width: 991px) {
+	#login {
+	    width: 100%;
+	    margin-left: 0;
+	}
+
+	#login > img {
+	    width: 200px;
+	}
+
+	#login .welcome {
+        font-size: 1.2rem;
+	    margin-top: 120px;
+	}
+
+	#login .bg-login {
+	    margin-top: -27px;
+	    font-size: 1.7rem;
+	}
+}
+
+@media (max-width: 767px) {
+	#login > img {
+	    width: 150px;
+	}
+
+	#login .welcome {
+	    font-size: 1rem;
+	    margin-top: 90px;
+	}
+
+	#login .bg-login {
+		margin-top: -21px;
+	    font-size: 1.2rem;
+	    line-height: 4rem;
+	}
+
+	#login .bg-loginarea {
+	    margin-left: -53px;
+	    min-height: 250px;
+	}
+}
+
+@media (max-width: 649px) {
+	#login {
+        width: calc(100% + 30px);
+	    margin-left: -15px;
+	}
+
+	#login > img {
+	    margin-left: 15px;
+	}
+
+	#login .welcome {
+	    display: none;
+	}
+
+	#login .bg-login {
+	    width: 100%;
+	    line-height: 1.5rem;
+	    padding: 1rem 0.5rem;
+	}
+
+		#login .bg-login > .skewBox {
+		    transform: none;
+		}
+
+			#login .bg-login > .skewBox:before {
+				width: 100%;
+			    left: 0;
+			}
+
+			#login .bg-login > .skewBox:after {
+				width: 100%;
+			}
+
+	#login .bg-loginarea {
+        margin-left: 0;
+	    min-height: 0;
+	}
+
+		#login .bg-loginarea > .skewBox {
+		    transform: none;
+		}
+
+			#login .bg-loginarea > .skewBox:before {
+				width: 100%;
+			    left: 0;
+			}
+
+			#login .bg-loginarea > .skewBox:after {
+				width: 100%;
+			}
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+
+
+
+
+
+/**********************************/
+/**** PRINT                    ****/
+/**********************************/
+
+
+@media print {
+	.breadcrumb {
+	    display: none;
+	}
+	.navbar-brand {
+	    height: 75px;
+    }
+    a.navbar-brand[href]:after {
+	    display: none;
+    }
+    .rezept .ingrdients {
+	    background: #eee !important;
+    }
+    .rezept .ingrdients.rezeptBasics {
+	    margin-bottom: 1.1rem;
+	    background: #ddd !important;
+	}
+	.rezept img.rezept_bild {
+		left: 0;
+	}
+	.rezept .devider {
+		margin-bottom: 2rem;
+	}
+	.btn {
+		display: none;
+	}
+	.form-control {
+	    border: none;
+	}
+}

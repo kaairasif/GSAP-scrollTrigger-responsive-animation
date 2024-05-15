@@ -1,0 +1,1409 @@
+/* Common
+================================================================= */
+.high-impact-hero figure img {
+    max-width: 100%;
+}
+.component :is(h1, h2, h3, h4, h5, p, ul, li) {
+    color: #333;
+}
+.component-container {
+    padding: 30px;
+}
+.component-container h1 {
+    color: #333233;
+    font-size: clamp(1.5rem, 1.85vw, 2.2rem);
+}
+.component-container--white {
+    background: white;
+}
+.component-container--off-white {
+    background: #f2f2f2;
+}
+.component-container img {
+    max-width: 100%;
+}
+.component-container h2,
+.component-container h3,
+.component-container h4  {
+    word-wrap: break-word;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.tca-general-block .font-md {
+    font-size: 30px !important;
+    margin-bottom: 10px !important;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.mb-none {
+    margin-bottom: 0;
+}
+
+/* Stats
+================================================================= */
+.stats {
+    margin-bottom: 50px;
+}
+.stats__copy-head {
+    margin-bottom: 30px;
+}
+.stats--expense h1 {
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+.stats--expense h2 {
+    color: #333333;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    /* font-size: 28px; */
+    font-size: clamp(1.2rem, 1.6vw, 2.2rem);
+    line-height: 32px;
+}
+
+
+/* Content segment
+================================================================= */
+.content-segment {
+    margin-bottom: 50px;
+}
+.content-segment h2 {
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+.content-segment h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+/* text-image-block */
+.text-image-block {
+    margin-bottom: 50px;
+}
+
+.text-image-block h3 {
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.text-image-block--center h3 {
+    font-size: 20px;
+}
+.text-image-block__item {
+    margin-bottom: 70px;
+}
+
+
+/* Video-block
+================================================================= */
+.video-block h2 {
+    font-size: 36px;
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+}
+.video-block h3 {
+    font-size: 25px;
+}
+
+.video-block__item {
+        max-width:100%;
+        margin: 60px auto;
+        display: block;
+    }
+.title-block h2 {
+    font-size: 36px;
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+}
+.related-info h3 {
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    margin-bottom: 15px;
+    font-size: 24px;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+
+/* TCO feature
+================================================================= */
+.tco-feature h2 {
+    font-size: 36px;
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+}
+.tco-feature h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.tco-feature__details {
+    margin-bottom: 50px;
+}
+.tco-feature__copy-block {
+    margin-bottom: 40px;
+}
+.tco-feature__copy-block h2 {
+    margin-bottom:20px;
+}
+.tco-feature .text-image-block h3 {
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.tco-feature__item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* TCA General block
+================================================================= */
+.tca-general-block h2 {
+    font-size: 36px;
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.tca-general-block .t-center {
+    text-align: center;
+}
+.tca-general-block h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.tca-general-block .text-image-block--center h3 {
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+/* TCA Branch
+================================================================= */
+.tca-branch__image {
+    margin-bottom: 30px;
+}
+
+
+/* Riding steps
+================================================================= */
+.riding-steps__list {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.riding-steps__list > li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.riding-steps__list .riding-steps__list-inner:not(:first-child, :last-child) {
+    padding: 0 0px;
+}
+.riding-steps__list .tco-arrow-container .arr-right,
+.riding-steps__list img,
+.riding-steps__list p {
+    opacity: 0;
+}
+
+.tco-arrow-container {
+    /* position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+    top: 2vw; */
+    margin-top: 35px;
+}
+.riding-steps__list .riding-steps__list-text {
+    margin-bottom: 0;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.riding-steps__list img {
+    max-width: clamp(45px, 4vw, 65px);
+    margin-bottom: 15px;
+}
+.riding-steps__list .arr-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 14px solid #d4d4d4;
+    display: inline-flex;
+    align-items: center;
+    top: 35px;
+    transform: translateY(-50%);
+}
+
+.tca-counter-list {
+    list-style: none;
+    counter-reset: tca-awesome-counter;
+    margin: 0;
+    padding: 0;
+}
+.tca-counter-list li {
+    counter-increment: tca-awesome-counter;
+    padding-left: 80px;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: normal;
+}
+.tca-counter-list li::before {
+    content: counter(tca-awesome-counter)".";
+    font-size: 32px;
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    left: 0;
+    position: absolute;
+    top: 0;
+    line-height: 36px;
+    width: 60px;
+    height: 60px;
+    background: #014891;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+ }
+ .tca-highlight-bold {
+    font-weight: bold;
+    color: #014891;
+ }
+
+ .tca-life-concept {
+    /* max-width: 95%; */
+    margin:  50px auto 0 auto;
+ }
+
+ .tca-life-concept__tiers {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+    padding: 0;
+    margin-left: 0;
+    position: relative;
+ }
+ .tca-life-concept__tiers li:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 4px;
+    width: 99%;
+    background: #676666;
+    left: 0px;
+    transform: translateY(-50%);
+ }
+.tca-life-concept__tiers li img {
+    z-index: 1;
+    position: relative;
+}
+.tca-life-concept__list-container {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(116px, 1fr));
+    gap: 15px;
+    margin-top: 50px;
+    padding: 0;
+    margin-left: 0;
+}
+
+
+
+.tca-life-concept__list-container ul {
+    padding: 0;
+    margin: 0;
+}
+.tca-life-concept__list-item h4 {
+   font-size: clamp(12px, 1.7vw, 16px);
+   font-family: 'Michelin W00 Bold', Arial, sans-serif;
+   color: #014891;
+   margin-bottom: 30px;
+}
+
+.tca-life-concept__list-container li {
+    list-style-type: none;
+    padding: 0 0 0 37px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    font-size: 14px;
+    word-break: break-all;
+}
+.tca-life-concept__icon {
+    display: inline-flex;
+    width: 30px;
+    padding: 4px;
+    border-radius: 50%;
+    margin-right: 5px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tca-life-concept__icon img{
+    max-width: 15px;
+}
+.tca-life-concept__icon--blue {
+    background: #014891;
+}
+.tca-life-concept__icon--green {
+    background: #80B737;
+}
+.tca-life-concept__icon .tca-life-concept__icon--big{
+    max-width: 25px;
+}
+.tca-life-concept__list-item-pic {
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+.tca-general-block__mb-none {
+    margin-bottom: 0 !important;
+}
+
+/* TCO load distribution
+============================================================ */
+.tco-running-costs {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.tco-running-costs__load-distribution {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 50px;
+  
+}
+.tco-running-costs__load-distribution .tco__load-distribution img {
+    opacity: 0.15;
+}
+.tco-running-costs__load-distribution .tco__load-distribution-percentages{
+    position: absolute;
+    color: #fff;
+    font-size: clamp(14px, 2.5vw, 36px);
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    left: 50%;
+    transform: translateX(-50%) rotate(-90deg);
+    top: 28%;
+    line-height: 40px;
+    display: block;
+    opacity: 0;
+
+}
+.tco-running-costs__load-distribution .tco__load-distribution {
+    position: relative;
+}
+.tco-running-costs__load-distribution .tco__load-distribution-1 .tco__load-distribution-percentages {
+    left: 63%;
+}
+
+.tco-running-costs__load-distribution .tco__load-distribution-5 .tco__load-distribution-percentages {
+    top: -22px;
+    color: #8E9ED1;
+    transform: translateX(-50%) rotate(0deg);
+}
+.tco-running-costs__load-distribution .tco__load-distribution-6 .tco__load-distribution-percentages {
+    left: 40%;
+}
+
+.tco-running-costs__load-distribution .tco__load-distribution-8 .tco__load-distribution-percentages {
+    left: 40%;
+}
+
+/* TCA Convincing offer */
+.tca-general-block__convincing-offer {
+    display: flex;
+    align-items: center;
+}
+.tca-general-block__convincing-offer-item--mid {
+    flex-basis: 115px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.tca-general-block__available-both h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.tca-general-block__available-both-icon {
+    position: relative;
+    margin: 40px 0 0 0;
+    display: inline-block;
+}
+.tca-general-block__convincing-offer-item--large {
+    flex-basis: 50%;
+    text-align: center;
+}
+.tca-general-block__convincing-offer-item--large img {
+   margin-bottom: 10px;
+}
+.tca-general-block__convincing-offer-item--large a {
+  color: #2474bf;
+}
+
+
+.tca-general-block__available-both-icon:after,
+.tca-general-block__available-both-icon:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid #12254e;
+    display: inline-flex;
+    align-items: center;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+.tca-general-block__available-both-icon:after {
+    left: 20px;
+}
+.tca-general-block__available-both-icon:before {
+    transform: translateY(-50%) rotate(180deg);
+    left: -20px;
+}
+
+.tca-general-block__convincing-offer-item--end {
+    flex-basis: 450px;
+}
+.tca-general-block__mytectexpert {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 20px;
+}
+.tca-general-block__mytechexpert-item {
+    flex-basis: 60%;
+}
+.tca-general-block__mytectexpert--image {
+    flex-basis: 40%
+}
+.tca-general-block__mytectexpert-text {
+    word-break: break-all;
+    container-type: inline-size;
+}
+.tca-general-block__mytectexpert-text h2 {
+    font-size: clamp(16px, 8cqw, 24px);
+    color: #12254e;
+    margin-bottom: 10px;
+}
+.tca-general-block__mytectexpert-text h4 {
+    font-size: 16px;
+    color: #2474bf;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.tca-general-block__mytectexpert-text p {
+    font-size: 12px;
+    line-height: normal;
+}
+.tca-general-block__apps a {
+    display: block;
+}
+
+.tco-l-quote {
+    position: relative;
+    left: 11px;
+    bottom: 2px;
+}
+
+.tca-general-block__white-bg {
+    background: #fff;
+}
+.tca-general-block__vetical-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 0;
+}
+.tca-general-block__vetical-items img {
+    max-width: 250px;
+    margin: 0 0 0 20px;
+    width: 100%;
+    display: block;
+}
+.tca-general-block__vetical-items h4{
+    word-break: break-all;
+    font-weight: bold;
+}
+.tco-relative {
+    position: relative;
+}
+.tca-general-block .tco__mecheline-remix-logo {
+    max-width: 150px;
+    width: 100%;
+}
+.tca-life-concept__list-item--solid .tca-life-concept__list-item-pic,
+.tca-life-concept__list-item--dashed .tca-life-concept__list-item-pic{
+    position: relative;
+}
+.tca-life-concept__list-item .tca-life-concept__list-item-pic img{
+    position: relative;
+    z-index: 1;
+}
+.tca-life-concept__list-item--solid .tca-life-concept__list-item-pic:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: calc(100% + 45px);
+    height: 4px;
+    border-top: 4px solid #676666;
+    left: 0;
+}
+.tca-life-concept__list-item--dashed .tca-life-concept__list-item-pic:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: calc(100% + 45px);
+    height: 4px;
+    border-top: 4px dotted #676666;
+    left: 1px;
+}
+
+/* TCO Impacts
+================================================================= */
+.tco__aham-moments {
+    margin-top: 50px;
+    word-break: break-all;
+    margin-bottom: 50px;
+}
+.tco__aham-moments-impacts {
+    background: #DEE1F3;
+    padding: 30px;
+    container-type: inline-size;
+}
+.tco__aham-moments-head {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+.tco__aham-moments-head-copy {
+    flex-basis: calc(65% - 30px);
+}
+.tco__aham-moments-head-image {
+    flex-basis: 35%;
+    position: relative;
+}
+.tco__aham-moments-head-image img{
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    height: 170px;
+    right: 0;
+    bottom: -31px;
+}
+#content .tco__aham-moments-head-copy-secondary {
+    color: #0C54A0;
+    font-size: clamp(16px, 2.30cqi, 36px);
+    line-height: normal;
+    margin-bottom: 0;
+}
+.tco__aham-moments-head-copy-secondary span {
+    font-size: 70%;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+.tco__aham-moments-impacts-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 220px));
+    gap: 30px;
+    text-align: center;
+    justify-content: space-around;
+}
+.tco__aham-moments-impacts h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: clamp(16px, 4.40cqi, 50px);
+}
+.tco__aham-moments-impacts-chart {
+    margin-bottom: 0;
+}
+.tco__aham-moments-impacts-btn {
+    display: block;
+    background: #607EBD;
+    margin: 0 0 15px 0;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* TCO Key Benefits
+=============================================================== */
+.tco__key-benefits {
+    padding: 30px;
+    background: #DEE1F3;
+    word-break: break-all;
+    container-type: inline-size;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tco__key-benefits h2{
+    color: #fff;
+    font-size: clamp(30px, 5cqw, 55px);
+}
+.tco__key-benefits-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.tco__key-benefits-list li {
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 20px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+.tco__key-benefits-list li:last-child {
+    margin-bottom: 0;
+}
+.tco__key-benefits-list li figure{
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 70px;
+    width: 100%;
+}
+.tco__key-benefits-list li h3 {
+    margin-bottom: 0;
+    font-size: clamp(20px, 3cqw, 32px);
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    color: #0C54A0;
+    line-height: normal;
+}
+.tco__key-benefits-list li h3 span {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* TCO Cost analysis animation
+======================================================================== */
+.tco__cost-analysis {
+    word-break: break-all;
+}
+.tco__cost-analysis-head {
+    position: relative;
+    min-height: 176px;
+    background: #DEE1F3;
+}
+.tco__cost-analysis--direct-costs{
+    position: absolute;
+    background: #fff;
+    padding: 7px 0px 7px 10px;
+    bottom: 10px;
+    left: 10px;
+    max-width: 225px;
+    width: 100%;
+}
+.tco__cost-analysis--indirect-costs {
+    position: absolute;
+    background: #DEE1F3;
+    top: 10px;
+    padding: 7px 0px 7px 10px;
+    left: 10px;
+    max-width: 225px;
+    width: 100%;
+}
+.tco__cost-analysis-costs h2 {
+    margin-bottom: 0;
+    font-size: 16px;
+    /* font-size: clamp(20px, 3cqw, 32px); */
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    color: #0C54A0;
+    line-height: normal;
+}
+.tco__cost-analysis-costs span  {
+    font-family: 'Michelin W00', Arial, sans-serif;
+    color: #0C54A0;
+    line-height: normal;
+    font-size: 16px;
+}
+.tco__cost-analysis-body {
+    position: relative;
+    min-height: 300px;
+    container-type: inline-size;
+}
+.tco__cost-analysis-costs:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 29px solid transparent;
+    border-bottom: 28px solid transparent;
+    border-left: 28px solid #fff;
+    top: 0;
+    right: -28px;
+    position: absolute;
+}
+.tco__cost-analysis--indirect-costs:after {
+    border-left-color:#DEE1F3;
+}
+.tco__cost-analysis-eiceberg-bottom .tco__cost-analysis-eiceberg-bottom-img {
+    max-width: 328px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+/* EisBerg portion */
+.tco__cost-analysis-eiceberg-top figure {
+    margin: 0;
+}
+.tco__cost-analysis-eiceberg-top img {
+    width: 328px;
+    position: absolute;
+    bottom: 0;
+    right: 35px;
+}
+.tco__cost-analysis-eiceberg-top .tco__cost-analysis-percentage {
+    position: absolute;
+    bottom: 0px;
+    right: 92px;
+    font-size: 75px;
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    color: #0C54A0;
+    line-height: 1;
+}
+.tco__cost-analysis-item .tco__cost-analysis-item-icon {
+    width: 52px;
+}
+.tco__cost-analysis-item-text {
+    color: #0C54A0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.tco__cost-analysis-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+ }
+ /* Common item */
+ .tco__cost-analysis-item .tco__cost-analysis-item-icon,
+ .tco__cost-analysis-item .tco__cost-analysis-item-line,
+ .tco__cost-analysis-item .tco__cost-analysis-item-text {
+    position: absolute;
+    z-index: 9;
+ }
+.tco__cost-analysis-item .tco__cost-analysis-item-line {
+    background: #0C54A0;
+    height: 3px;
+}
+
+ /* Item 1 */
+.tco__cost-analysis-item-1 .tco__cost-analysis-item-icon {
+    left: 16%;
+    top: 8%;
+}
+.tco__cost-analysis-item-1 .tco__cost-analysis-item-text {
+    top: 24%;
+    left: -16%;
+}
+.tco__cost-analysis-item-1 .tco__cost-analysis-item-line {
+    width: 41px;
+    top: 21%;
+    left: 1%;
+    transform: rotate(-30deg);
+    transform-origin: right top;
+}
+
+/* Item 2 */
+.tco__cost-analysis-item-2 .tco__cost-analysis-item-icon {
+    left: 24%;
+    top: 25%;
+}
+.tco__cost-analysis-item-2 .tco__cost-analysis-item-text {
+    top: 41%;
+    left: -26%;
+    text-align: right;
+}
+.tco__cost-analysis-item-2 .tco__cost-analysis-item-line {
+    width: 52px;
+    top: 38%;
+    left: 5%;
+    transform: rotate(-30deg);
+    transform-origin: right;
+}
+
+.tco__cost-analysis-item-1-text {
+    position: absolute;
+    display: block;
+}
+
+/* Item 3 */
+.tco__cost-analysis-item-3 .tco__cost-analysis-item-icon {
+    left: 34%;
+    top: 40%;
+}
+.tco__cost-analysis-item-3 .tco__cost-analysis-item-text {
+    top: 59%;
+    left: -26%;
+    text-align: right;
+}
+.tco__cost-analysis-item-3 .tco__cost-analysis-item-line {
+    width: 59px;
+    top: 53%;
+    left: 14%;
+    transform: rotate(-39deg);
+    transform-origin: right;
+}
+
+/* Item 4 */
+.tco__cost-analysis-item-4 .tco__cost-analysis-item-icon {
+    left: 45%;
+    top: 54%;
+}
+.tco__cost-analysis-item-4 .tco__cost-analysis-item-text {
+    bottom: 17%;
+    left: -8%;
+    text-align: right;
+}
+.tco__cost-analysis-item-4 .tco__cost-analysis-item-line {
+    width: 56px;
+    bottom: 30%;
+    left: 24%;
+    transform: rotate(-46deg);
+    transform-origin: right;
+}
+
+/* Item 5 */
+.tco__cost-analysis-item-5 .tco__cost-analysis-item-icon {
+    right: 27%;
+    top: 34%;
+}
+.tco__cost-analysis-item-5 .tco__cost-analysis-item-text {
+    top: 51%;
+    right: -2%;
+    text-align: left;
+}
+.tco__cost-analysis-item-5 .tco__cost-analysis-item-line {
+    width: 39px;
+    top: 46%;
+    right: 18%;
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+
+/* Item 6 */
+.tco__cost-analysis-item-6 .tco__cost-analysis-item-icon {
+    right: 18%;
+    top: 16%;
+}
+.tco__cost-analysis-item-6 .tco__cost-analysis-item-text {
+    top: 30%;
+    right: -14%;
+    text-align: left;
+}
+.tco__cost-analysis-item-6 .tco__cost-analysis-item-line {
+    width: 20px;
+    top: 28%;
+    right: 11%;
+    transform: rotate(48deg);
+    transform-origin: left;
+}
+/* Item end here */
+
+
+
+.tco-stats__row {
+    display: flex;
+    /* grid-template-columns: 585px 1fr; */
+    gap: 50px;
+}
+.tco-stats__eiceberg-col {
+    max-width: 640px;
+    width: 100%;
+}
+.tco-stats__eiceberg-col-copy {
+    width: calc(100% - 690px);
+}
+
+.tco__cost-analysis-item-1-text {
+    position: absolute;
+    display: block;
+}
+
+.tco__cost-analysis-percentage,
+.tco__cost-analysis-costs {
+    /* opacity: 0; */
+    z-index: 10;
+}
+
+.tco__cost-analysis-eiceberg-bottom-iceberg {
+    width: 328px;
+    background: url(images/eisberg/eisberg-bottom.svg) no-repeat;
+    height: 400px;
+    position: relative;
+    background-position: center top;
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.tco__cost-analysis-costs,
+.tco__cost-analysis-percentage,
+.tco__cost-analysis-item .tco__cost-analysis-item-icon,
+.tco__cost-analysis-item .tco__cost-analysis-item-line,
+.tco__cost-analysis-item .tco__cost-analysis-item-text {
+    opacity: 0;
+}
+.tco-potential-counters {
+    color: red;
+}
+
+/* TCO potential feature
+================================================================= */
+.tco-potential-data {
+    color: #1D1D1B;
+    position: relative;
+    max-width: 90%;
+    margin-top: 70px;
+}
+.tco-potential-data__row {
+    background: #D2D7ED;
+    position: relative;
+    padding: 0px 120px 0px 30px;
+    display: flex;
+    gap: 10px;
+    margin-left: 101px;
+    justify-content: space-between;
+}
+.tco-potential-data .tco-potential-data__a-img,
+.tco-potential-data .tco-potential-data__b-img {
+    max-width: 120px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tco-potential-data .tco-potential-data__truck {
+    max-width: 184px;
+    position: absolute;
+    right: -76px;
+    z-index: 1;
+    top: -46px;
+}
+.tco-potential-data__col-1 {
+    flex-basis: 125px;
+    display: flex;
+    align-items: center;
+}
+.tco-potential-data .tco-potential-data__row p {
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 5px;
+    font-size: clamp(12px, 1.2vw, 14px);
+}
+.tco-potential-data .tco-potential-data__row h2 {
+    /* font-size: 20px; */
+    font-size: clamp(12px, 1.2vw, 20px);
+    color: #004F9E;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+.tco-potential-data__col-2 {
+    display: flex;
+    gap: 10px;
+    flex-basis: 480px;
+}
+.tco-potential-data__col-2 > div {
+    flex-basis: 50%;
+}
+.tco-potential-data__col-3 {
+    flex-basis: 142px;
+    padding: 15px;
+    background: #004F9E;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.tco-potential-percentage__price .small {
+    font-weight: bold;
+    line-height: 12px;
+    display: block;
+}
+.tco-potential-data__total span {
+    display: block;
+}
+.tco-potential-data__total .tco-potential-data__total-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+.tco-potential-data .tco-potential-data__total .tco-potential-data__total-price {
+    color: #FFE500;
+    font-size: 24px;
+    font-size: clamp(16px, 1.5vw, 24px);
+    opacity: 0;
+}
+.tco-potential-data__total-km {
+    font-weight: bold;
+    /* font-size: 18px; */
+    font-size: clamp(12px, 1.2vw, 18px);
+    opacity: 0;
+}
+
+/* Percentage */
+.tco-potential-percentage {
+    padding: 15px 0px;
+}
+.tco-potential-percentage > span {
+    display: block;
+}
+.tco-potential-percentage__number {
+    /* font-size: 25px; */
+    font-size: clamp(16px, 2vw, 25px);
+    font-family: 'Michelin W00 Bold', Arial, sans-serif;
+    color: #0C54A0;
+    line-height: 26px;
+}
+.tco-potential-percentage__progress-bg {
+    height: 18px;
+    width: 90px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 2px 0 10px 0;
+}
+.tco-potential-percentage__progress-status {
+    display: block;
+    width: 0%;
+    height: 100%;
+    background: #0C54A0;
+    border-radius: 5px;
+}
+
+
+/* Media queries breakpoints */
+@media only screen and (max-width: 1200px) {
+    .tco-potential-percentage__progress-bg {
+        height: 15px;
+        width: 65px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .tco-stats__row {
+       flex-direction: column;
+    }
+    .tco-stats__eiceberg-col {
+        margin: 0 auto;
+    }
+    .tco-stats__eiceberg-col-copy {
+        width: 100%;
+    }
+    .stats__copy-head h1 br {
+        display: none;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .tca-general-block__convincing-offer {
+        display: block;
+    }
+    .tca-general-block__convincing-offer-item--mid {
+        margin: 20px 0 0 0;
+    }
+    .tca-general-block__available-both-icon {
+        margin-top: 50px;
+    }
+    #content .tco__aham-moments-head-copy-secondary br{
+      display: none;  
+    }
+    /* Eiceber animation*/
+    .tco__cost-analysis-head {
+        min-height: 240px;
+    }
+    .tco__cost-analysis--direct-costs {
+        padding: 7px 0px 7px 10px;
+        bottom: auto;
+        left: calc(50% - 127px);
+        top: 10px;
+    }
+    .tco__cost-analysis-eiceberg-top img {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .tco__cost-analysis-eiceberg-top .tco__cost-analysis-percentage {
+        right: calc(50% - 90px);
+    }
+    .tco__cost-analysis--indirect-costs {
+        top: auto;
+        left: calc(50% - 127px);
+        bottom: 0;
+    }
+    .tco__cost-analysis-costs:after {
+        display: none;
+    }
+    .tco__cost-analysis-eiceberg-bottom-iceberg {
+        margin-right: auto;
+    }
+    .tco__cost-analysis-body {
+        padding-bottom: 70px;
+    }
+    .tco__cost-analysis {
+        margin-bottom: 10px;
+    }
+    .tco-stats__row {
+        gap: 15px;
+    }
+
+    /* TCO Potential data */
+    .tco-potential-data {
+        max-width: 100%;
+    }
+    .tco-potential-data .tco-potential-data__a-img,
+    .tco-potential-data .tco-potential-data__b-img {
+        max-width: 100px;
+        left: -10px;
+     }
+    .tco-potential-data__row {
+        background: url("images/LaengerFahrenMehrSparen-shape.svg") no-repeat;
+        padding: 0 0 0 80px;
+        background-position: left center;
+        background-size: cover;
+        margin-left: 34px;
+    }
+    .tco-potential-data__col-2 {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .tco-potential-percentage__progress-bg {
+        margin: 2px 0 5px 0;
+    }
+    .tco-potential-data .tco-potential-data__truck {
+        display: none;
+    }
+    .tco-potential-data .tco-potential-data__row p {
+        font-size: clamp(14px, 1.2vw, 16px);
+    }
+    .tco-potential-data .tco-potential-data__row h2 {
+        font-size: clamp(14px, 1.2vw, 20px);
+     }
+    .tco-potential-data__col-1 {
+        flex-basis: auto;
+    }
+    .tco-potential-percentage {
+        padding: 0px 0px;
+    }
+    .tco-potential-percentage__progress-bg {
+        width: 130px;
+    }
+    .tco-running-costs {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tca-life-concept__list-item-pic {
+        padding-right: 0px;
+    }
+    .tca-life-concept__list-item--solid .tca-life-concept__list-item-pic:after {
+        width: calc(100% + 50px);
+     }
+    .tca-life-concept__list-container {
+      grid-template-columns: repeat(2, minmax(110px,1fr));
+      gap: 0 30px;
+    }
+    .tca-life-concept__list-container > div:last-child {
+     grid-column: 1 / -1
+    }
+    .tca-life-concept__list-container > div:last-child {
+        max-width: 50%;
+        margin: 0 auto;
+    }  
+    .tca-life-concept__list-container li:last-child {
+        margin-bottom: 0;
+    }
+    .tca-life-concept__list-item-pic img {
+        max-width: 150px;
+        width: 100%;
+    }
+    .tca-life-concept__list-container {
+        max-width: 100%;
+        overflow: hidden;
+        padding-right: 30px;
+    }
+    .tca-life-concept__list-item {
+        position: relative;
+    }
+    .tca-life-concept__list-item--solid:not(:first-child):after {
+        content: "";
+        position: absolute;
+        top: 78px;
+        width: 4px;
+        height: calc(100% - 24px);
+        border-right: 4px solid #676666;
+        right: -30px;
+    } 
+    .tca-life-concept__list-container > div:not(:last-child) {
+        margin-bottom: 100px;
+    }
+    .tca-life-concept__list-item [data-conceptitem="3"] .tca-life-concept__list-item-pic{
+        position: relative;
+    }
+    .tca-life-concept__list-item[data-conceptitem="3"]:before{
+        content: "";
+        position: absolute;
+        top: -48px;
+        width: 4px;
+        height: 50px;
+        border-right: 4px solid #676666;
+        left: 77px;
+    }
+    .tca-life-concept__list-item[data-conceptitem="3"]:after {
+        content: "";
+        position: absolute;
+        top: -48px;
+        width: 300%;
+        height: 4px;
+        border-top: 4px solid #676666;
+        left: 77px;
+    }
+    .tca-life-concept__list-item[data-conceptitem="4"]:after {
+        content: "";
+        position: absolute;
+        top: 82px;
+        width: 4px;
+        height: calc(100% - 24px);
+        border-right: 4px dotted #676666;
+        right: -30px;
+    }
+    .tca-life-concept__list-item[data-conceptitem="5"]:after {
+        content: "";
+        position: absolute;
+        top: -46px;
+        width: 300%;
+        border-top: 4px dotted #676666;
+        left: 77px;
+    }
+    .tca-life-concept__list-item[data-conceptitem="5"]:before {
+        content: "";
+        position: absolute;
+        top: -48px;
+        width: 4px;
+        height: 50px;
+        border-right: 4px dotted #676666;
+        left: 77px;
+    }
+
+    /* TCo potential data */
+    .tco-potential-data .tco-potential-data__a-img,
+    .tco-potential-data .tco-potential-data__b-img {
+        max-width: 90px;
+        left: -18px;
+     }
+    .tco-potential-data__row {
+        padding: 0 0 0 44px;
+     }
+    .tco-potential-data__col-3 {
+        padding: 7px;
+     }
+    .tco-potential-data .tco-potential-data__row h2 {
+        font-size: clamp(12px, 1.2vw, 20px);
+    }
+    .tco-potential-data__row {
+        gap: 10px;
+    }
+    .tco-potential-percentage__progress-bg {
+        width: 60px;
+    }
+    .tco-potential-data__col-3 {
+        flex-basis: 90px;
+        padding: 10px;
+    }
+    .tco-potential-data {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 540px) {  
+
+    .tco-stats__eiceberg-col {
+        transform: scale(0.82);
+        transform-origin: center top;
+    }
+    .tco-potential-data__col-2 {
+        flex-basis: 194px;
+    }
+    .tco-potential-data__col-3 {
+        padding: 5px;
+    }
+    .tco-potential-data__row {
+        margin-left: 5px;
+        padding: 0 0 0 37px;
+    }
+    .tco-potential-data .tco-potential-data__a-img, .tco-potential-data .tco-potential-data__b-img {
+        max-width: 55px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .text-image-block figure img{
+        max-width: 275px;
+        width: 100%;
+    }
+    .text-image-block--center {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .text-image-block--center .row {
+        align-items: center;
+    }
+    .video-block__item {
+        max-width: 70%;
+        margin: 60px auto;
+        display: block;
+    }
+    .px-50 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .ahamoment-pic {
+        max-width: 70%;
+        margin: 50px auto;
+    }
+    .tca-branch__image img {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .tca-counter-list li { 
+        padding-right: 10%;
+    }
+
+    .tca-life-concept__desktop {
+        display: block;
+    }
+    .tca-life-concept__mobile {
+        display: none;
+    }
+ 
+
+}

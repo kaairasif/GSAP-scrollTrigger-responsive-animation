@@ -1,0 +1,330 @@
+/* @font-face {
+  font-family: "Michelin W00 Bold";
+  src: url("fonts/ddc1f077-05b1-44f8-a4d8-956f7de45223.eot?#iefix");
+  src: url("fonts/ddc1f077-05b1-44f8-a4d8-956f7de45223.eot?#iefix")
+      format("eot"),
+    url("fonts/aac92cbb-355e-4eb5-b760-d1354b156d3d.woff2") format("woff2"),
+    url("fonts/668dbf26-1e13-4b50-94c5-96f9ad9faff2.woff") format("woff"),
+    url("fonts/53247ca9-5884-40a6-ab49-3dadb0ed9d82.ttf") format("truetype"),
+    url("fonts/2d723134-6c75-478e-9c4d-84f482d86e83.svg#2d723134-6c75-478e-9c4d-84f482d86e83")
+      format("svg");
+}
+@font-face {
+  font-family: "Michelin W00 SemiBold";
+  src: url("fonts/787bbcfc-c3d3-4554-8ff5-86006617c94a.eot?#iefix");
+  src: url("fonts/787bbcfc-c3d3-4554-8ff5-86006617c94a.eot?#iefix")
+      format("eot"),
+    url("fonts/cf210eb9-2fef-4c93-b395-b3b892e67f5e.woff2") format("woff2"),
+    url("fonts/8f29f51f-77a6-4d75-b594-9b65471e85fb.woff") format("woff"),
+    url("fonts/3fad9c98-7e9f-4b28-a2bc-8edf84f6a121.ttf") format("truetype"),
+    url("fonts/76600b96-0c2d-4070-8097-778b3801c325.svg#76600b96-0c2d-4070-8097-778b3801c325")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Michelin Beta W00 Regular";
+  src: url("fonts/ef1e002b-5a51-4380-a64f-1dd7e2a6a10b.eot?#iefix");
+  src: url("fonts/ef1e002b-5a51-4380-a64f-1dd7e2a6a10b.eot?#iefix")
+      format("eot"),
+    url("fonts/2db39266-9473-4772-b014-4ed60debb023.woff2") format("woff2"),
+    url("fonts/2e443cde-5513-48b3-98fa-c304df828829.woff") format("woff"),
+    url("fonts/b4220bd8-28fd-4ed9-8884-595560e343e3.ttf") format("truetype"),
+    url("fonts/9fadba99-3e5c-498f-9841-4a3d46142a57.svg#9fadba99-3e5c-498f-9841-4a3d46142a57")
+      format("svg");
+}
+
+#content .wintercampaign-2023 figure img {
+  max-width: 100%;
+}
+
+#content .wintercampaign-2023__white--container {
+  background: #fff;
+  margin-top: 30px;
+  padding: 50px 125px;
+}
+#content .wintercampaign-2023__white--container h1 {
+  color: #000099;
+  font-family: "Michelin W00 Bold";
+}
+#content .wintercampaign-2023__white--container {
+  color: #000;
+}
+#content .wintercampaign-2023__white--container p .small {
+  display: inline-block;
+  margin-top: 10px;
+}
+#content
+  .wintercampaign-2023__white--container
+  .wintercampaign-2023__header-copy {
+  margin: 40px 0 0px 0;
+}
+#content
+  .wintercampaign-2023__white--container
+  .wintercampaign-2023__header-copy
+  p {
+  font-size: 0.8rem;
+}
+
+#content .wintercampaign-2023_features .wintercampaign-2023_features--row {
+  margin: 40px 0;
+}
+#content
+  .wintercampaign-2023_features
+  .wintercampaign-2023_features--row:last-child {
+  margin-bottom: 0;
+}
+
+#content .wintercampaign-2023_features--row figure {
+  max-width: 270px;
+  margin: 0 auto;
+}
+.wintercampaign-2023_features__copy-block {
+  position: relative;
+  padding: 5px 0 20px 50px;
+}
+.wintercampaign-2023_features__copy-block
+  .wintercampaign-2023_features__number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 36px;
+  color: #000;
+  font-family: "Michelin W00 Bold";
+  line-height: normal;
+}
+.wintercampaign-2023_features__copy-block h3 {
+  font-family: "Michelin W00 SemiBold";
+  font-size: 0.89rem;
+  line-height: normal;
+}
+.wintercampaign-2023_features__copy-block ul {
+  margin: 0;
+  padding: 0px 0 0 15px;
+  font-size: 0.8rem;
+}
+.wintercampaign-2023_features--row .v-align-middle {
+  display: flex;
+  align-items: center;
+}
+.wintercampaign-2023_features__copy2 {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+.wintercampaign-2023_features__copy-block2 {
+  position: relative;
+  padding: 0 0 0 70px;
+  margin: 0 auto 0 auto;
+}
+.wintercampaign-2023_features__copy-block2 p {
+  line-height: normal;
+}
+.wintercampaign-2023_features__copy-block2
+  .wintercampaign-2023_features__right-arrow {
+  max-width: 54px;
+  position: absolute;
+  top: -1px;
+  left: 0;
+}
+.wintercampaign-2023_features__copy-block-wrapper .t-shirt {
+  max-width: 400px;
+}
+#content .wintercampaign-2023__footer-copy {
+  background: #fff;
+  padding: 20px;
+  margin: 40px 0 0 0;
+  font-size: 0.6rem;
+  color: #000;
+}
+#content .wintercampaign-2023__footer-copy p {
+  line-height: normal;
+}
+#content .wintercampaign-2023__footer-copy > p:last-of-type {
+  margin-bottom: 0;
+}
+#content .wintercampaign-2023__footer-copy a {
+  color: #000099;
+} */
+
+/* Modal
+============================================== */
+/* #winter-kampaign.winter-campaign-2023-modal.modal .modal-dialog {
+  margin-top: 70px;
+  max-width: 600px;
+  height: auto;
+  overflow: visible;
+  margin-left: auto;
+  margin-right: auto;
+}
+#winter-kampaign .modal-title-block {
+  margin-top: 0px;
+}
+
+#winter-kampaign .close {
+  box-sizing: border-box;
+  padding: 0;
+  right: 0;
+  top: -5px;
+}
+#winter-kampaign .winter-campaign-2023-modal_semi-title {
+  line-height: normal;
+  font-size: 0.9rem;
+}
+#winter-kampaign .winter-campaign-2023-modal_un-o-list {
+  padding: 0 0 0 15px;
+  font-size: 0.8rem;
+}
+#winter-kampaign .modal-content {
+  border-left: 0;
+}
+#winter-kampaign .wc-modal-disclaimer {
+  font-size: 0.6rem;
+  margin-top: 30px;
+}
+#winter-kampaign .wc-modal-disclaimer p a {
+  color: #000099;
+}
+#winter-kampaign .winter-campaign-form-label {
+  font-size: 0.8rem;
+  line-height: normal;
+}
+#winter-kampaign .winter-campaign-form-label .small {
+  display: inline-block;
+  margin-top: 10px;
+} */
+/* Breakpoints for small devices
+========================================================================= */
+/* @media only screen and (max-width: 767px) {
+  .wintercampaign-2023_features__copy-block-wrapper {
+    margin: 20px auto 0 auto;
+  }
+} */
+
+#content .wintercampaign-2023__white--container {
+  margin-top: 0px;
+}
+
+#content .wintercampaign-2023_features figcaption{
+  text-align: center; 
+  padding: 15px 0 0 0
+}
+#content .wintercampaign-2023__header-copy--para sup,
+#content .m__sup {
+  position: relative;
+  top: -3px;
+  font-size: 11px;
+  line-height: 11px;
+}
+#content .wintercampaign-2023__header-copy--top {
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #ecedf6;
+}
+#content .wintercampaign-2023_features__copy-block ul {
+  margin-top: 30px;
+  font-size: 1rem;
+}
+#content .wintercampaign-2023_features__copy-block ul li{
+  margin-bottom: 15px;
+}
+#content .wintercampaign-2023__white--container .wintercampaign-2023_features__copy-block .wintercampaign-2023_features__copy2 {
+  font-size: 1rem;
+}
+#content .wintercampaign-2023_features--row figure.figure-1 {
+  max-width: 360px;
+  padding-left: 35px;
+}
+#content .wintercampaign-2023_features--row h3{
+  font-family: "Michelin W00 SemiBold";
+  font-size: 0.89rem;
+  line-height: normal;
+}
+#content .wintercampaign-2023__white--container .wintercampaign-2023__header-copy p.small {
+  font-size: 0.7rem;
+}
+
+#content .wintercampaign-2023_features__copy-block2 .wintercampaign-2023_features__right-arrow {
+  max-width: 82px;
+  position: absolute;
+  top: -7px;
+  left: -8px;
+}
+
+#wrapper #content .wintercampaign-2023_features--row figure {
+  max-width: 100%;
+}
+#wrapper #content .wintercampaign-2023_features--row figure img {
+  max-width: 310px;
+  margin: 0 auto;
+  display: block;
+}
+
+#wrapper #content .wintercampaign-2023_features--row figure.wintercampaign-2023_features__video-block img {
+  max-width: 250px;
+}
+#wrapper #content .wintercampaign-2023_features--row .wintercampaign-2023_features__pdf-block img {
+  max-width: 170px;
+}
+#wrapper #content .wintercampaign-2023_features--row .wintercampaign-2023_features__pdf-block figcaption {
+  padding-top: 5px;
+}
+.wintercampaign-2023_features__thumbnail img:hover {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 14px;
+  filter: brightness(0.8) blur(0.5px);
+}
+#wrapper #content .wintercampaign-2023_features .wintercampaign-2023_features__copy-block .btn {
+  margin-top: 15px;
+}
+#winter-kampaign .winter-campaign-form-label {
+  font-size: 1rem;
+}
+#winter-kampaign .winter-campaign-2023-modal_semi-title {
+  font-size: 1rem;
+}
+#winter-kampaign .winter-campaign-2023-modal_un-o-list {
+  font-size: 1rem;
+  margin-top: 25px;
+}
+#winter-kampaign.winter-campaign-2023-modal.modal .modal-dialog {
+  max-width: 700px;
+}
+#winter-kampaign .winter-campaign-2023-modal-form {
+  margin: 50px 0 50px 0;
+}
+#content .wintercampaign-2023__white--container .wintercampaign-2023_features__thumbnail-link{
+  color: #000;
+  text-decoration: none;  
+}
+
+#winter-kampaign-video-modal .winter-kampaign-video-modal-item{
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#content .mp-modal.winter-campaign-2023-video-modal .modal-content {
+  border: none;
+}
+#content .mp-lottery.winter-campaign-2023-video-modal .modal-body {
+  padding: 0;
+}
+#content .mp-modal.winter-campaign-2023-video-modal .modal-dialog {
+  max-width: 850px;
+  margin-top: 15vh;
+}
+#content .wintercampaign-2023_features--row figure.figure-1 img {
+  width: 100%;
+}
+#winter-kampaign-video-modal .modal-content {
+  background: transparent;
+}
+#winter-kampaign-video-modal .video-modal-close {
+  padding: 0;
+  top: -38px;
+  right: 0;
+  transition: 0.3s;
+}
+#winter-kampaign-video-modal .video-modal-close:hover {
+  filter: brightness(0.8) blur(0.5px);
+}

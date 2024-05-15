@@ -1,0 +1,119 @@
+/*
+ * Icon Font Xperts-de
+ * Made with love by Icons8 [ https://icons8.com/ ] using FontCustom [ https://github.com/FontCustom/fontcustom ]
+ *
+ * Contacts:
+ *    [ https://icons8.com/contact ]
+ *
+ * Follow Icon8 on
+ *    Twitter [ https://twitter.com/icons_8 ]
+ *    Facebook [ https://www.facebook.com/Icons8 ]
+ *    Google+ [ https://plus.google.com/+Icons8 ]
+ *    GitHub [ https://github.com/icons8 ]
+ */
+
+
+@font-face {
+  font-family: "Xperts-de";
+  src: url("../fonts/Xperts-de.eot");
+  src: url("../fonts/Xperts-de.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Xperts-de.woff2") format("woff2"),
+       url("../fonts/Xperts-de.woff") format("woff"),
+       url("../fonts/Xperts-de.ttf") format("truetype"),
+       url("../fonts/Xperts-de.svg#Xperts-de") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Xperts-de";
+    src: url("../fonts/Xperts-de.svg#Xperts-de") format("svg");
+  }
+}
+
+[data-icons8]:before { content: attr(data-icons8); }
+
+.icons8, [data-icons8]:before,
+.icons8-aktentasche:before,
+.icons8-alphabetische-sortierung:before,
+.icons8-car-filled:before,
+.icons8-checked-checkbox:before,
+.icons8-download:before,
+.icons8-drucken:before,
+.icons8-eingekreistes-rangabzeichen-unten:before,
+.icons8-filter:before,
+.icons8-geography-filled:before,
+.icons8-geschlechtsneutraler-benutzer:before,
+.icons8-h-kchen:before,
+.icons8-headset:before,
+.icons8-image-file:before,
+.icons8-info:before,
+.icons8-interstate-truck-filled:before,
+.icons8-kalender:before,
+.icons8-microsoft-excel:before,
+.icons8-microsoft-word:before,
+.icons8-neuer-beitrag:before,
+.icons8-pdf:before,
+.icons8-pfeil--ausklappen:before,
+.icons8-sonnenbrille:before,
+.icons8-sperren:before,
+.icons8-sprechblase:before,
+.icons8-suche:before,
+.icons8-support:before,
+.icons8-touchscreen-smartphone:before,
+.icons8-uhr:before,
+.icons8-unchecked-checkbox:before,
+.icons8-vorw-rts:before,
+.icons8-weihnachtsstern:before,
+.icons8-zip:before,
+.icons8-zuhause:before,
+.icons8-zur-ck:before {
+  display: inline-block;
+  font-family: "Xperts-de";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icons8-aktentasche:before { content: "\f125"; }
+.icons8-alphabetische-sortierung:before { content: "\f127"; }
+.icons8-car-filled:before { content: "\f100"; }
+.icons8-checked-checkbox:before { content: "\f10b"; }
+.icons8-download:before { content: "\f103"; }
+.icons8-drucken:before { content: "\f11a"; }
+.icons8-eingekreistes-rangabzeichen-unten:before { content: "\f113"; }
+.icons8-filter:before { content: "\f117"; }
+.icons8-geography-filled:before { content: "\f102"; }
+.icons8-geschlechtsneutraler-benutzer:before { content: "\f11d"; }
+.icons8-h-kchen:before { content: "\f10d"; }
+.icons8-headset:before { content: "\f122"; }
+.icons8-image-file:before { content: "\f108"; }
+.icons8-info:before { content: "\f10f"; }
+.icons8-interstate-truck-filled:before { content: "\f101"; }
+.icons8-kalender:before { content: "\f11e"; }
+.icons8-microsoft-excel:before { content: "\f105"; }
+.icons8-microsoft-word:before { content: "\f106"; }
+.icons8-neuer-beitrag:before { content: "\f11f"; }
+.icons8-pdf:before { content: "\f104"; }
+.icons8-pfeil--ausklappen:before { content: "\f111"; }
+.icons8-sonnenbrille:before { content: "\f123"; }
+.icons8-sperren:before { content: "\f124"; }
+.icons8-sprechblase:before { content: "\f11c"; }
+.icons8-suche:before { content: "\f129"; }
+.icons8-support:before { content: "\f120"; }
+.icons8-touchscreen-smartphone:before { content: "\f126"; }
+.icons8-uhr:before { content: "\f119"; }
+.icons8-unchecked-checkbox:before { content: "\f10a"; }
+.icons8-vorw-rts:before { content: "\f115"; }
+.icons8-weihnachtsstern:before { content: "\f121"; }
+.icons8-zip:before { content: "\f107"; }
+.icons8-zuhause:before { content: "\f11b"; }
+.icons8-zur-ck:before { content: "\f114"; }
